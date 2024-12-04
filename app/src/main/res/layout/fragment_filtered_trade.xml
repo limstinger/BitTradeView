@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 사용자 입력 -->
+    <EditText
+        android:id="@+id/edit_text_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter timestamp (e.g., 2024-11-24)"
+        android:inputType="text" />
+
+    <!-- 필터 버튼 -->
+    <Button
+        android:id="@+id/button_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Filter" />
+
+    <!-- 결과 표시 RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_filtered"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

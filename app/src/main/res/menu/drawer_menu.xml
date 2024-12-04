@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_btc_price"
+        android:title="BTC Price Chart" />
+    <item
+        android:id="@+id/nav_trade_decision"
+        android:title="Trade Decision Chart" />
+    <item
+        android:id="@+id/nav_btc_balance"
+        android:title="BTC Balance Chart" />
+    <item
+        android:id="@+id/nav_krw_balance"
+        android:title="KRW Balance Chart" />
+
+    <item
+        android:id="@+id/nav_filtered_trade"
+        android:title="Filtered Trades" />
+</menu>
