@@ -61,6 +61,8 @@ Displays the timestamps of all executed trade orders, the corresponding commands
 -----
 
  ## **Limitations**
+ * If a network issue occurs while sending a database request packet to the EC2 server and receiving its response, it may result in a failure to visualize the data.
+ * The functionality to zoom in or display specific parts of the graph has not been implemented yet, leading to reduced readability of the graph.
 
  ## **License**
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE_FILE_LINK) file for details.
