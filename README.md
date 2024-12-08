@@ -29,27 +29,36 @@ The app will visualize the trading data in various formats, providing insightful
 
  ### 2.  BTC Price Fragment
 **Visualizes the price of Bitcoin at the time each trade order was executed.**
-![스크린샷 2024-12-08 232237](https://github.com/user-attachments/assets/353751e6-f2e6-48e3-bba9-72a9f0728340)
+![스크린샷 2024-12-08 232237](https://github.com/user-attachments/assets/353751e6-f2e6-48e3-bba9-72a9f0728340)<br>
+
+-----
 
  ### 3.  Trade Decision Fragment
  **Visualizes the proportions of Buy, Hold, and Sell orders issued so far using a pie chart.**
-![스크린샷 2024-12-08 231832](https://github.com/user-attachments/assets/d7596dc0-21ea-492e-9ac4-cdfbfb30efbb)
+![스크린샷 2024-12-08 231832](https://github.com/user-attachments/assets/d7596dc0-21ea-492e-9ac4-cdfbfb30efbb)<br>
+
+-----
 
 ### 4.  BTC Balance Fragment
 **Visualizes the amount of Bitcoin held immediately after each trade order using a line chart.**
-![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/94f4f23c-c244-45c8-8260-60be24107992)
+![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/94f4f23c-c244-45c8-8260-60be24107992)<br>
+
+-----
 
 ### 5.  KRW Balance Fragment
 Visualizes the amount of cash (KRW) held immediately after each trade order using a line chart.
-![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/42c115cd-439d-4d7f-934e-95916b4c4ef9)
+![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/42c115cd-439d-4d7f-934e-95916b4c4ef9)<br>
+
+-----
 
 ### 6. Filtered Trade Fragment
 Displays the timestamps of all executed trade orders, the corresponding commands (Buy, Hold, Sell), and the reasons for each command.
 <div style="display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/d00660a5-58ad-4f72-ad41-37cb8281d440" alt="스크린샷 2024-12-08 232550" width="45%" />
-    <img src="https://github.com/user-attachments/assets/1abd9f78-ae49-4a7a-86a0-8a3cad7a8e89" alt="스크린샷 2024-12-08 232740" width="45%" />
+    <img src="https://github.com/user-attachments/assets/1abd9f78-ae49-4a7a-86a0-8a3cad7a8e89" alt="스크린샷 2024-12-08 232740" width="45%" /><br>
 </div>
 
+-----
 
  ## **Limitations**
 
