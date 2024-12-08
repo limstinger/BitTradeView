@@ -8,7 +8,7 @@
 In this project, I aim to develop an app that integrates with the database of an automated Bitcoin trading program currently running on an EC2 cloud server.<br>
 The app will visualize the trading data in various formats, providing insightful and interactive representations.
 
-| Android App view 1     | Android App view 2     |
+| Android App View 1     | Android App View 2     |
 |--------------------|--------------------|
 | ![Android_App_in_java_01](https://github.com/user-attachments/assets/dc93b9fe-b2dc-4ef8-810e-7a041219a966) | ![Android_App_in_java_02](https://github.com/user-attachments/assets/05e08325-19c0-414f-8556-008ec4e21a3b) |
 
