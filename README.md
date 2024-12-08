@@ -24,7 +24,7 @@ The app will visualize the trading data in various formats, providing insightful
  ### 1.  Navigation Drawer
 **You can easily navigate to various fragments for visualizing Bitcoin trading data using the navigation drawer.**
 ![스크린샷 2024-12-09 011430](https://github.com/user-attachments/assets/f271be7d-b3bf-4394-9b6f-42c2aff1cbd4)
-<img src="https://github.com/user-attachments/assets/f271be7d-b3bf-4394-9b6f-42c2aff1cbd4" alt="스크린샷 2024-12-09 011430" width="50%">
+<img src="https://github.com/user-attachments/assets/f271be7d-b3bf-4394-9b6f-42c2aff1cbd4" alt="스크린샷 2024-12-09 011430" width="50% style="aspect-ratio: 9/16;">
 
  ### 2.  BTC Price Fragment
 **Visualizes the price of Bitcoin at the time each trade order was executed.**
