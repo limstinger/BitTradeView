@@ -19,6 +19,7 @@ The app will visualize the trading data in various formats, providing insightful
  Build environment:
   - [x] The `app.py` script enables external access to the Bitcoin trading database stored on the EC2 server, allowing the app to retrieve and utilize the data.
   - [X] Therefore, the `app.py` script must be running on the EC2 server before launching the app.
+  - [X] Requires Android Studio installation
 
  ## **Examples**
 This app is designed to use the **Navigation Viewer** to provide visualized graphs and related information in the selected fragment.<br>
