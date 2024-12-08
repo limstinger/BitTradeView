@@ -21,6 +21,11 @@ The app will visualize the trading data in various formats, providing insightful
   - [X] Therefore, the `app.py` script must be running on the EC2 server before launching the app.
 
  ## **Examples**
+This app is designed to use the **Navigation Viewer** to provide visualized graphs and related information in the selected fragment.<br>
+The fragments consist of `BTCPriceFragment`, `BTCBalanceFragment`, `KRWBalanceFragment`, `TradeDecisionFragment`, and `FilteredTradeFragment`, making up a total of five fragments.
+The descriptions of each fragment are as follows.
+
+ 
 ### 1.  Navigation Drawer
 #### **You can easily navigate to various fragments for visualizing Bitcoin trading data using the navigation drawer.**
 ![스크린샷 2024-12-09 011430](https://github.com/user-attachments/assets/f271be7d-b3bf-4394-9b6f-42c2aff1cbd4)<br>
