@@ -46,13 +46,13 @@ The app will visualize the trading data in various formats, providing insightful
 -----
 
 ### 5.  KRW Balance Fragment
-Visualizes the amount of cash (KRW) held immediately after each trade order using a line chart.
+**Visualizes the amount of cash (KRW) held immediately after each trade order using a line chart.**
 ![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/42c115cd-439d-4d7f-934e-95916b4c4ef9)<br>
 
 -----
 
 ### 6. Filtered Trade Fragment
-Displays the timestamps of all executed trade orders, the corresponding commands (Buy, Hold, Sell), and the reasons for each command.
+#### **Displays the timestamps of all executed trade orders, the corresponding commands (Buy, Hold, Sell), and the reasons for each command.**
 <div style="display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/d00660a5-58ad-4f72-ad41-37cb8281d440" alt="스크린샷 2024-12-08 232550" width="45%" />
     <img src="https://github.com/user-attachments/assets/1abd9f78-ae49-4a7a-86a0-8a3cad7a8e89" alt="스크린샷 2024-12-08 232740" width="45%" /><br>
