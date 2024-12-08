@@ -17,7 +17,7 @@ The app will visualize the trading data in various formats, providing insightful
 
  ## **Set Up & Prerequisites**
  Build environment:
- 
+  - [x] The `app.py` script enables external access to the Bitcoin trading database stored on the EC2 server, allowing the app to retrieve and utilize the data.
 
  ## **Examples**
 
