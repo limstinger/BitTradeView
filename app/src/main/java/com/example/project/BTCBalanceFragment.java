@@ -18,57 +18,57 @@ import retrofit2.Response;
 
 public class BTCBalanceFragment extends Fragment {
 
-    private LineChart krwBalanceChart;
+    private LineChart BTCBalanceChart;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_krw_balance, container, false);
-        krwBalanceChart = view.findViewById(R.id.krw_balance_chart);
-        loadCachedData(); // 캐시된 데이터를 먼저 로드
-        fetchKRWBalanceData(); // API 데이터를 호출
+        View view = inflater.inflate(R.layout.fragment_btc_balance, container, false);
+        BTCBalanceChart = view.findViewById(R.id.btc_balance_chart);
+        loadCachedData(); // 캐시된 데이터 로드
+        fetchBTCBalanceData(); // API 호출로 BTC Balance 데이터 가져오기
         return view;
     }
 
-    private void fetchKRWBalanceData() {
+    private void fetchBTCBalanceData() {
         ApiService apiService = RetrofitClient.getApiService();
         apiService.getTrades().enqueue(new Callback<List<Trade>>() {
             @Override
             public void onResponse(Call<List<Trade>> call, Response<List<Trade>> response) {
                 if (response.isSuccessful() && response.body() != null) {
-                    displayKRWBalanceData(response.body());
-                    CacheManager.getInstance().saveKRWBalanceData(response.body()); // 데이터를 캐시에 저장
+                    displayBTCBalanceData(response.body());
+                    CacheManager.getInstance().saveBTCBalanceData(response.body()); // 캐시에 데이터 저장
                 } else {
-                    Log.e("KRWBalanceFragment", "Failed to fetch data: " + response.errorBody());
-                    krwBalanceChart.setNoDataText("Failed to load data from server.");
+                    Log.e("BTCBalanceFragment", "Failed to fetch data: " + response.errorBody());
+                    BTCBalanceChart.setNoDataText("Failed to load data from server.");
                 }
             }
 
             @Override
             public void onFailure(Call<List<Trade>> call, Throwable t) {
-                Log.e("KRWBalanceFragment", "Network error: " + t.getMessage());
-                krwBalanceChart.setNoDataText("Network error. Showing cached data.");
+                Log.e("BTCBalanceFragment", "Network error: " + t.getMessage());
+                BTCBalanceChart.setNoDataText("Network error. Showing cached data.");
             }
         });
     }
 
     private void loadCachedData() {
-        List<Trade> cachedTrades = CacheManager.getInstance().getKRWBalanceData();
+        List<Trade> cachedTrades = CacheManager.getInstance().getBTCBalanceData();
         if (cachedTrades != null && !cachedTrades.isEmpty()) {
-            displayKRWBalanceData(cachedTrades);
+            displayBTCBalanceData(cachedTrades);
         } else {
-            krwBalanceChart.setNoDataText("No cached data available.");
+            BTCBalanceChart.setNoDataText("No cached data available.");
         }
     }
 
-    private void displayKRWBalanceData(List<Trade> trades) {
+    private void displayBTCBalanceData(List<Trade> trades) {
         List<Entry> entries = new ArrayList<>();
         for (int i = 0; i < trades.size(); i++) {
             Trade trade = trades.get(i);
-            entries.add(new Entry(i, (float) trade.getKrw_balance()));
+            entries.add(new Entry(i, (float) trade.getBtc_balance())); // BTC Balance 사용
         }
-        LineDataSet dataSet = new LineDataSet(entries, "KRW Balance Over Time");
+        LineDataSet dataSet = new LineDataSet(entries, "BTC Balance Over Time");
         LineData lineData = new LineData(dataSet);
-        krwBalanceChart.setData(lineData);
-        krwBalanceChart.invalidate();
+        BTCBalanceChart.setData(lineData);
+        BTCBalanceChart.invalidate();
     }
 }
