@@ -41,7 +41,7 @@ The app will visualize the trading data in various formats, providing insightful
 
 ### 4.  BTC Balance Fragment
 **Visualizes the amount of Bitcoin held immediately after each trade order using a line chart.**
-![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/94f4f23c-c244-45c8-8260-60be24107992)<br>
+![스크린샷 2024-12-09 021106](https://github.com/user-attachments/assets/7a7823eb-b1c5-4303-a6e0-129eb95bdf46)<br>
 
 -----
 
