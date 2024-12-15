@@ -73,7 +73,8 @@ The descriptions of each fragment are as follows.
 -----
 
 ### 2.  BTC Price Fragment
-#### **Visualizes the price of Bitcoin at the time each trade order was executed.**
+* #### **Visualizes the price of Bitcoin at the time each trade order was executed.**
+* #### **You can check the BTC price at the time of the transaction through the tooltip.**
 | BTC Price Fragment 1     | BTC Price Fragment2     |
 |--------------------|--------------------|
 | ![btcprice](https://github.com/user-attachments/assets/60440330-35ef-4764-8a00-f42728035469) | ![btcPrice1](https://github.com/user-attachments/assets/68b3369c-d105-4461-981f-e17006d537c8) |
@@ -88,13 +89,16 @@ The descriptions of each fragment are as follows.
 -----
 
 ### 4.  BTC Balance Fragment
-#### **Visualizes the amount of Bitcoin held immediately after each trade order using a line chart.**
+* #### **Visualizes the amount of Bitcoin held immediately after each trade order using a line chart.**
+* #### **You can check your BTC holdings at the time of the transaction through the tooltip.**
+
 ![btcbalance](https://github.com/user-attachments/assets/3bf3c316-59c8-43b7-a699-9516429242dd)<br>
 
 -----
 
 ### 5.  KRW Balance Fragment
-#### **Visualizes the amount of cash (KRW) held immediately after each trade order using a line chart.**
+* #### **Visualizes the amount of cash (KRW) held immediately after each trade order using a line chart.**
+* #### **You can check your cash holdings at the time of the transaction through the tooltip.**
 ![krwBalance](https://github.com/user-attachments/assets/6ac756c7-0dc4-413c-87c6-4d8b93d6c955)<br>
 
 -----
