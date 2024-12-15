@@ -101,7 +101,7 @@ The descriptions of each fragment are as follows.
 
 ### 6. Filtered Trade Fragment
 #### **Displays the timestamps of all executed trade orders, the corresponding commands (Buy, Hold, Sell), and the reasons for each command.**
-| Android App View 1     | Android App View 2     |
+| Filtered Trade Fragment 1     | Filtered Trade Fragment 2     |
 |--------------------|--------------------|
 | ![filterReason](https://github.com/user-attachments/assets/7d5ed5e0-a374-4793-a0da-df2dfa97d65f) | ![filterReason1](https://github.com/user-attachments/assets/aa2c2c02-c15b-492b-9c27-216b98299579) |
 
