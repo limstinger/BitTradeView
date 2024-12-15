@@ -22,7 +22,9 @@ The app will visualize the trading data in various formats, providing insightful
   - [X] ![app](https://github.com/user-attachments/assets/8b12430f-bf6b-4f1a-80f0-213319d514d0) <br>
   - [X] Requires Android Studio installation
         * Language : JAVA
-        * API version : 
+        * Compile SDK Version: 34
+        * Min SDK Version: 28
+        * Target SDK Version: 34
 <br>
 
 ****Prerequisites:****
@@ -69,7 +71,7 @@ The descriptions of each fragment are as follows.
 ### 1.  Navigation Drawer
 * #### **You can easily navigate to various fragments for visualizing Bitcoin trading data using the navigation drawer.**
 * #### Flow Chart example:
-  ****Main Activity → Navigation Drawer → Selected Fragment.**** <br>
+  ****Main Activity → Navigation Drawer → Selected Fragment.**** <br><br>
 ![navigation](https://github.com/user-attachments/assets/b96a748f-1c9d-432f-84df-0b170475877b)
 <br>
 
@@ -117,6 +119,12 @@ The descriptions of each fragment are as follows.
  ## **Limitations**
  * 
  * The functionality to zoom in or display specific parts of the graph has not been implemented yet, leading to reduced readability of the graph.
+
+-----
+
+## **Future Improvements**
+
+-----
 
  ## **License**
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE_FILE_LINK) file for details.
