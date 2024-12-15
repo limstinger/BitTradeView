@@ -24,9 +24,7 @@ The app will visualize the trading data in various formats, providing insightful
 <br>
 
 ***Prerequisites:***
-
 <br>
-
 ****Gradle Dependencies****
 
 The following libraries are required for the app to function properly, with their roles described below:
