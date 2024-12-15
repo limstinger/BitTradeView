@@ -69,7 +69,7 @@ The descriptions of each fragment are as follows.
 ### 1.  Navigation Drawer
 * #### **You can easily navigate to various fragments for visualizing Bitcoin trading data using the navigation drawer.**
 * #### Flow Chart example:
-  ****Main Activity → Navigation Drawer → Selected Fragment.****
+  ****Main Activity → Navigation Drawer → Selected Fragment.**** <br>
 ![navigation](https://github.com/user-attachments/assets/b96a748f-1c9d-432f-84df-0b170475877b)
 <br>
 
