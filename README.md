@@ -21,6 +21,8 @@ The app will visualize the trading data in various formats, providing insightful
   - [X] Therefore, the `app.py` script must be running on the EC2 server before launching the app.
   - [X] ![app](https://github.com/user-attachments/assets/8b12430f-bf6b-4f1a-80f0-213319d514d0) <br>
   - [X] Requires Android Studio installation
+        * Language : JAVA
+        * API version : 
 <br>
 
 ****Prerequisites:****
