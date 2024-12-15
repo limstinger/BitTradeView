@@ -56,6 +56,7 @@ The following libraries are required for the app to function properly, with thei
    - [x] ```implementation("com.google.code.gson:gson:2.8.9")```<br>
          Serializes and deserializes JSON data to and from Java objects.
 
+-> But **"Check for library updates to avoid potential security vulnerabilities."**
 
 
 
