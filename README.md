@@ -22,7 +22,8 @@ The app will visualize the trading data in various formats, providing insightful
   - [X] ![app](https://github.com/user-attachments/assets/8b12430f-bf6b-4f1a-80f0-213319d514d0) <br>
   - [X] Requires Android Studio installation
 <br>
-***Prerequisites:*** <br>
+***Prerequisites:***
+<br>
 ****Gradle Dependencies****
 The following libraries are required for the app to function properly, with their roles described below:
 
