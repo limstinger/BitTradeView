@@ -29,31 +29,35 @@ The descriptions of each fragment are as follows.
  
 ### 1.  Navigation Drawer
 #### **You can easily navigate to various fragments for visualizing Bitcoin trading data using the navigation drawer.**
-![스크린샷 2024-12-09 011430](https://github.com/user-attachments/assets/f271be7d-b3bf-4394-9b6f-42c2aff1cbd4)<br>
+![navigation](https://github.com/user-attachments/assets/b96a748f-1c9d-432f-84df-0b170475877b)
+<br>
 
 -----
 
 ### 2.  BTC Price Fragment
 #### **Visualizes the price of Bitcoin at the time each trade order was executed.**
-![스크린샷 2024-12-08 232237](https://github.com/user-attachments/assets/353751e6-f2e6-48e3-bba9-72a9f0728340)<br>
+| BTC Price Fragment 1     | BTC Price Fragment2     |
+|--------------------|--------------------|
+| ![btcprice](https://github.com/user-attachments/assets/60440330-35ef-4764-8a00-f42728035469) | ![btcPrice1](https://github.com/user-attachments/assets/68b3369c-d105-4461-981f-e17006d537c8) |
+<br>
 
 -----
 
 ### 3.  Trade Decision Fragment
 #### **Visualizes the proportions of Buy, Hold, and Sell orders issued so far using a pie chart.**
-![스크린샷 2024-12-08 231832](https://github.com/user-attachments/assets/d7596dc0-21ea-492e-9ac4-cdfbfb30efbb)<br>
+![tradedecision](https://github.com/user-attachments/assets/43f4a052-8da4-4272-9df9-f72bcfc69796)<br>
 
 -----
 
 ### 4.  BTC Balance Fragment
 #### **Visualizes the amount of Bitcoin held immediately after each trade order using a line chart.**
-![스크린샷 2024-12-09 021106](https://github.com/user-attachments/assets/7a7823eb-b1c5-4303-a6e0-129eb95bdf46)<br>
+![btcbalance](https://github.com/user-attachments/assets/3bf3c316-59c8-43b7-a699-9516429242dd)<br>
 
 -----
 
 ### 5.  KRW Balance Fragment
 #### **Visualizes the amount of cash (KRW) held immediately after each trade order using a line chart.**
-![스크린샷 2024-12-08 231731](https://github.com/user-attachments/assets/42c115cd-439d-4d7f-934e-95916b4c4ef9)<br>
+![krwBalance](https://github.com/user-attachments/assets/6ac756c7-0dc4-413c-87c6-4d8b93d6c955)<br>
 
 -----
 
