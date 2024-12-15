@@ -10,7 +10,7 @@ The app will visualize the trading data in various formats, providing insightful
 
 | Android App View 1     | Android App View 2     |
 |--------------------|--------------------|
-| ![Android_App_in_java_01](https://github.com/user-attachments/assets/dc93b9fe-b2dc-4ef8-810e-7a041219a966) | ![Android_App_in_java_02](https://github.com/user-attachments/assets/05e08325-19c0-414f-8556-008ec4e21a3b) |
+| ![Android App in java 01](https://github.com/user-attachments/assets/692aa0c7-9d1d-45d6-83f2-f2a433f44f3f) | ![Android App in java 02](https://github.com/user-attachments/assets/c5666035-53b7-45e1-9aea-3a05504ba3f6) |
 
  ## **Developer**
  임민규(Lim Mingyu)
