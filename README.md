@@ -63,15 +63,14 @@ The descriptions of each fragment are as follows.
 
 ### 6. Filtered Trade Fragment
 #### **Displays the timestamps of all executed trade orders, the corresponding commands (Buy, Hold, Sell), and the reasons for each command.**
-<div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/d00660a5-58ad-4f72-ad41-37cb8281d440" alt="스크린샷 2024-12-08 232550" width="45%" />
-    <img src="https://github.com/user-attachments/assets/1abd9f78-ae49-4a7a-86a0-8a3cad7a8e89" alt="스크린샷 2024-12-08 232740" width="45%" /><br>
-</div>
+| Android App View 1     | Android App View 2     |
+|--------------------|--------------------|
+| ![filterReason](https://github.com/user-attachments/assets/7d5ed5e0-a374-4793-a0da-df2dfa97d65f) | ![filterReason1](https://github.com/user-attachments/assets/aa2c2c02-c15b-492b-9c27-216b98299579) |
 
 -----
 
  ## **Limitations**
- * If a network issue occurs while sending a database request packet to the EC2 server and receiving its response, it may result in a failure to visualize the data.
+ * 
  * The functionality to zoom in or display specific parts of the graph has not been implemented yet, leading to reduced readability of the graph.
 
  ## **License**
