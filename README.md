@@ -16,16 +16,16 @@ The app will visualize the trading data in various formats, providing insightful
  임민규(Lim Mingyu)
 
  ## **Set Up & Prerequisites**
- ***Build environment:***
+ ****Build environment:****
   - [x] The `app.py` script enables external access to the Bitcoin trading database stored on the EC2 server, allowing the app to retrieve and utilize the data.
   - [X] Therefore, the `app.py` script must be running on the EC2 server before launching the app.
   - [X] ![app](https://github.com/user-attachments/assets/8b12430f-bf6b-4f1a-80f0-213319d514d0) <br>
   - [X] Requires Android Studio installation
 <br>
 
-***Prerequisites:***
+****Prerequisites:****
 <br>
-****Gradle Dependencies****
+***Gradle Dependencies***
 
 The following libraries are required for the app to function properly, with their roles described below:
 1. Retrofit
