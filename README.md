@@ -31,14 +31,24 @@ The app will visualize the trading data in various formats, providing insightful
 
 The following libraries are required for the app to function properly, with their roles described below:
 1. Retrofit
-   - [x] ```implementation("com.squareup.retrofit2:retrofit:2.9.0")``` Retrofit is used for handling REST API communication.
+   - [x] ```implementation("com.squareup.retrofit2:retrofit:2.9.0")```<br>
+         Retrofit is used for handling REST API communication.
    - [X] ```implementation("com.squareup.retrofit2:converter-gson:2.9.0")``` Converts JSON responses from the server into Java objects.
 2. OkHttp
-   - [x] ```implementation("com.squareup.okhttp3:okhttp:4.9.0")``` OkHttp is an HTTP client for making network requests.
+   - [x] ```implementation("com.squareup.okhttp3:okhttp:4.9.0")```<br>
+         OkHttp is an HTTP client for making network requests.
    - [X] ```implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")``` Logs network requests and responses for debugging purposes.
 3. MPAndroidChart
-   - [x] ```implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")``` Used for visualizing data, such as Bitcoin prices and balances in charts.
-5. 
+   - [x] ```implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")``` <br>
+         Used for visualizing data, such as Bitcoin prices and balances in charts.
+4. Material Design
+   - [x] ```implementation("com.google.android.material:material:1.9.0")``` Provides Material Design components for a polished and intuitive UI.
+5. AppCompat
+   - [x] ```implementation("androidx.appcompat:appcompat:1.6.1")``` Ensures backward compatibility for using modern UI elements on older Android versions.
+6. DrawerLayout
+   - [x] ```implementation("androidx.drawerlayout:drawerlayout:1.1.1")``` Used to create a side navigation menu.
+7. Gson
+   - [x] ```implementation("com.google.code.gson:gson:2.8.9")``` Serializes and deserializes JSON data to and from Java objects.
 
 
 
