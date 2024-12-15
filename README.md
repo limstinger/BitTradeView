@@ -22,10 +22,23 @@ The app will visualize the trading data in various formats, providing insightful
   - [X] ![app](https://github.com/user-attachments/assets/8b12430f-bf6b-4f1a-80f0-213319d514d0) <br>
   - [X] Requires Android Studio installation
 <br>
+
 ***Prerequisites:***
+
 <br>
+
 ****Gradle Dependencies****
+
 The following libraries are required for the app to function properly, with their roles described below:
+1. Retrofit
+   - [x] ```implementation("com.squareup.retrofit2:retrofit:2.9.0")``` Retrofit is used for handling REST API communication.
+   - [X] ```implementation("com.squareup.retrofit2:converter-gson:2.9.0")``` Converts JSON responses from the server into Java objects.
+2. OkHttp
+   - [x] ```implementation("com.squareup.okhttp3:okhttp:4.9.0")``` OkHttp is an HTTP client for making network requests.
+   - [X] ```implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")``` Logs network requests and responses for debugging purposes.
+3. MPAndroidChart
+   - [x] ```implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")``` Used for visualizing data, such as Bitcoin prices and balances in charts.
+5. 
 
 
 
