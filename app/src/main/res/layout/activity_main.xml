@@ -16,7 +16,9 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/dark_background"
+            android:titleTextColor="@color/gold"
+
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
         <!-- 프래그먼트를 담을 컨테이너 -->

@@ -9,7 +9,7 @@ import com.google.gson.GsonBuilder;
 
 public class RetrofitClient {
     private static Retrofit retrofit = null;
-    private static final String BASE_URL = "http://12.345.678.16:5000/"; // EC2 서버 주소와 포트(임의의 포트 번호)
+    private static final String BASE_URL = "http://54.180.244.16:5000/"; // EC2 서버 주소와 포트
 
     public static ApiService getApiService() {
         if (retrofit == null) {

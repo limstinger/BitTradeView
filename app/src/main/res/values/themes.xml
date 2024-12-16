@@ -1,9 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <style name="Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
 
-    <style name="Theme.Project" parent="Base.Theme.Project" />
+        <!-- Toolbar 배경 -->
+        <item name="colorPrimary">@color/dark_background</item>
+        <!-- Toolbar 텍스트 색상 -->
+        <item name="colorOnPrimary">@color/gold</item>
+        <!-- 상태바 색상 -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+    </style>
 </resources>

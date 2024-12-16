@@ -1,8 +1,8 @@
 package com.example.project;
 
+import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
-import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +15,7 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import android.graphics.Color;
 
 public class BTCBalanceFragment extends Fragment {
 
@@ -36,7 +37,7 @@ public class BTCBalanceFragment extends Fragment {
             public void onResponse(Call<List<Trade>> call, Response<List<Trade>> response) {
                 if (response.isSuccessful() && response.body() != null) {
                     displayBTCBalanceData(response.body());
-                    CacheManager.getInstance().saveBTCBalanceData(response.body()); // 캐시에 데이터 저장
+                    CacheManager.getInstance().saveBTCBalanceData(response.body()); // 데이터를 캐시에 저장
                 } else {
                     Log.e("BTCBalanceFragment", "Failed to fetch data: " + response.errorBody());
                     BTCBalanceChart.setNoDataText("Failed to load data from server.");
@@ -64,11 +65,22 @@ public class BTCBalanceFragment extends Fragment {
         List<Entry> entries = new ArrayList<>();
         for (int i = 0; i < trades.size(); i++) {
             Trade trade = trades.get(i);
-            entries.add(new Entry(i, (float) trade.getBtc_balance())); // BTC Balance 사용
+            entries.add(new Entry(i, (float) trade.getBtc_balance()));
         }
         LineDataSet dataSet = new LineDataSet(entries, "BTC Balance Over Time");
+        dataSet.setColor(Color.RED); // 선 색상 설정
+        dataSet.setLineWidth(2f); // 선 두께 설정
+        dataSet.setDrawCircles(false); // 데이터 포인트에 원 표시 안 함
+        dataSet.setDrawValues(false); // 데이터 값 표시 안 함
+
         LineData lineData = new LineData(dataSet);
         BTCBalanceChart.setData(lineData);
-        BTCBalanceChart.invalidate();
+        BTCBalanceChart.animateX(1500); // 차트 애니메이션
+
+        // CustomMarkerView에 chartType 추가
+        CustomMarkerView mv = new CustomMarkerView(getContext(), R.layout.custom_marker_view, trades, "BTCBalance");
+        BTCBalanceChart.setMarker(mv); // 차트에 마커 뷰 설정
+
+        BTCBalanceChart.invalidate(); // 차트 갱신
     }
 }
