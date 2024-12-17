@@ -5,7 +5,7 @@
  <br>
 
  ## **Introduction**
-In this project, I aim to develop an app that integrates with the database of an automated Bitcoin trading program currently running on an EC2 cloud server.<br>
+In this project, I aim to develop an app that integrates with the database of a GPT API-powered automated Bitcoin trading program currently running on an EC2 cloud server.<br>
 The app will visualize the trading data in various formats, providing insightful and interactive representations.
 
 | Android App View 1     | Android App View 2     |
