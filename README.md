@@ -117,13 +117,14 @@ The descriptions of each fragment are as follows.
 -----
 
  ## **Limitations**
- * 
+ * Running the Bitcoin automated trading program on an EC2 development server may cause network issues during database access.
  * The functionality to zoom in or display specific parts of the graph has not been implemented yet, leading to reduced readability of the graph.
 
 -----
 
 ## **Future Improvements**
-
+* *Enhancing Responsiveness*: For large data sets, consider asynchronous data loading and pagination to improve app responsiveness and reduce loading times.
+* *Strengthening Security*: Given the financial nature of the app, enhance data security measures such as implementing SSL certifications for data transfers between the server and the app.
 -----
 
  ## **License**
