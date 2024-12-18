@@ -23,6 +23,7 @@ The app will visualize the trading data in various formats, providing insightful
   - [X] Run app.py on an EC2 cloud server as shown in the image to allow external access to the database.
   - [X] Requires Android Studio installation <br>
 * Language : JAVA
+* IDE : Android Studio
 * Compile SDK Version: 34
 * Min SDK Version: 28
 * Target SDK Version: 34
