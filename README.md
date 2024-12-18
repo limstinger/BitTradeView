@@ -20,6 +20,7 @@ The app will visualize the trading data in various formats, providing insightful
   - [x] The `app.py` script enables external access to the Bitcoin trading database stored on the EC2 server, allowing the app to retrieve and utilize the data.
   - [X] Therefore, the `app.py` script must be running on the EC2 server before launching the app. <br>
   - [X] ![app](https://github.com/user-attachments/assets/4295f2d6-08b6-4231-823a-66447ed3d681) <br>
+  - [X] Run app.py on an EC2 cloud server as shown in the image to allow external access to the database.
   - [X] Requires Android Studio installation <br>
 * Language : JAVA
 * Compile SDK Version: 34
