@@ -127,6 +127,8 @@ The descriptions of each fragment are as follows.
 ## **Future Improvements**
 * *Enhancing Responsiveness*: For large data sets, consider asynchronous data loading and pagination to improve app responsiveness and reduce loading times.
 * *Strengthening Security*: Given the financial nature of the app, enhance data security measures such as implementing SSL certifications for data transfers between the server and the app.
+* *Incorporating Performance Reflection*: Add a feature to display how GPT reflects on past trading results stored in the database. This would showcase the patterns identified, decision-making insights, and how the system adapts based on previous outcomes to enhance the BTC automated trading process.
+* *Improving Trade Decision Readability*: Enhance the readability of the **Filtered Trade Fragment**, which lists the reasons behind trade decisions, to make it clearer and easier to understand. This improvement will help users better interpret the decision-making process.
 -----
 
  ## **License**
